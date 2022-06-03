@@ -15,8 +15,8 @@ export function Carousel() {
       maxWidth={1240}
       width='100%'
       mx='auto'
-      mt='14'
-      mb='10'
+      mt={['5', '14']}
+      mb={['6', '10']}
     >
       <Swiper
         modules={[Navigation, Pagination]}

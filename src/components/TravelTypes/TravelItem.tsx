@@ -1,4 +1,4 @@
-import { Flex, Image, Text } from "@chakra-ui/react";
+import { Flex, Image, Text, useBreakpointValue } from '@chakra-ui/react';
 
 interface TravelItemProps {
   icon: string;
@@ -6,15 +6,24 @@ interface TravelItemProps {
 }
 
 export function TravelItem({ children, icon }: TravelItemProps) {
+  const canContainIcons = useBreakpointValue({
+    base: false,
+    md: true,
+  });
+
   return (
-    <Flex direction='column' alignItems='center' >
-      <Image src={`/icons/${icon}`} alt={icon} />
+    <Flex direction={['row', 'row', 'column']} justifyContent='center' alignItems='center'>
+      { canContainIcons ? (
+        <Image src={`/icons/${icon}`} alt={icon} mb='6' />
+      ) : (
+        <Image src={'/dot.svg'} alt='dot' mr='2' />
+      ) }
+      
 
       <Text 
         fontWeight='semibold' 
-        fontSize='2xl'
+        fontSize={['lg', '2xl']}
         textAlign='center' 
-        mt='6' 
         color='gray.600'
       >
         {children}

@@ -5,13 +5,17 @@ export function Header() {
     <Flex
       as='header'
       w='100%'
-      h='100px'
+      py={['4', '6']}
       maxWidth={1160}
       mx='auto'
       align='center'
       justify='center'
     >
-      <Image src='/Logo.svg' alt='logo' />
+      <Image 
+        h={['5', '12']}
+        src='/Logo.svg' 
+        alt='logo' 
+      />
     </Flex>
 )
 }

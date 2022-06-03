@@ -7,9 +7,9 @@ export function TravelTypes() {
       maxWidth={1160}
       width='100%'
       mx='auto'
-      mt='20'
-      px='2'
-      minChildWidth='160px' 
+      mt={['9', '20']}
+      px={['4', '8']}
+      minChildWidth='155px' 
       gap='6'
     >
       <TravelItem icon='nightlife.svg'>

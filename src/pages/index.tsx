@@ -11,12 +11,22 @@ export default function Home() {
       <Banner />
       <TravelTypes />
       
-      <Divider mx='auto' mt='20' w='90px' borderWidth='2px' borderColor='gray.600' bg='gray.600' />
+      <Divider 
+        w={['60px', '90px']} 
+        mt={['9', '20']}
+        mx='auto' 
+        borderWidth={['1px', '2px']} 
+        borderColor='gray.600' 
+        bg='gray.600' 
+      />
 
       <Heading
         textAlign='center'
-        mt='14'
         color='gray.600'
+        mt={['6', '14']}
+        px={['4', '8']}
+        fontSize={['xl', '4xl']}
+        lineHeight={['1,875rem', '3,375rem']}
         fontWeight='medium'
       >
         Vamos nessa? <br/> Então escolha seu continente
