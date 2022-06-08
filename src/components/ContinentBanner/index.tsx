@@ -8,7 +8,7 @@ export function ContinentBanner() {
       h='500px'
       mx='auto'
       bgRepeat='no-repeat'
-      backgroundImage='/ContinentsImgs/europe.png'
+      backgroundImage='/ContinentsImgs/europe/banner.png'
       align='flex-end'
       pl='36'
       pb='14'

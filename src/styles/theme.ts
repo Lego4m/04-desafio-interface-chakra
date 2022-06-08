@@ -4,6 +4,7 @@ export const theme = extendTheme({
   colors: {
     brand: {
       500: '#FFBA08',
+      450: 'rgba(255, 186, 8,0.5)'
     },
     gray: {
       50: '#F5F8FA',
