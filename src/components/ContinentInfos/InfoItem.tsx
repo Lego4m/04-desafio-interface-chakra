@@ -12,8 +12,8 @@ export function InfoItem({ title, text, label = null }: InfoItemProps) {
       <Text 
         fontWeight='semibold' 
         color='brand.500'
-        fontSize='5xl'
-        lineHeight='4.5rem'
+        fontSize={['2xl', '5xl']}
+        lineHeight={['9', '4.5rem']}
       >
         {title}
       </Text>
@@ -21,8 +21,9 @@ export function InfoItem({ title, text, label = null }: InfoItemProps) {
       <Flex>
         <Text
           fontWeight='semibold'
-          fontSize='2xl'
-          lineHeight='9'
+          fontSize={['lg', '2xl']}
+          lineHeight={['7', '9']}
+          color='gray.600'
         >
           {text}
         </Text>

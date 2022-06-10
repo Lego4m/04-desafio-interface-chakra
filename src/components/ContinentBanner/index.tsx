@@ -5,19 +5,22 @@ export function ContinentBanner() {
     <Flex
       w='100%'
       maxW={1440}
-      h='500px'
+      h={['150px', '500px']}
       mx='auto'
       bgRepeat='no-repeat'
       backgroundImage='/ContinentsImgs/europe/banner.png'
-      align='flex-end'
-      pl='36'
-      pb='14'
+      backgroundSize='cover'
+      backgroundPosition='center'
+      align={['center', 'flex-end']}
+      justify={['center', 'flex-start']}
+      pl={['0', '36']}
+      pb={['0', '14']}
     >
       <Heading
-        textAlign='left'
+        textAlign={['center', 'left']}
         fontWeight='semibold'
-        fontSize='5xl'
-        lineHeight='4.5rem'
+        fontSize={['1.75rem', '5xl']}
+        lineHeight={['2.625rem', '4.5rem']}
       >
         Europa
       </Heading>

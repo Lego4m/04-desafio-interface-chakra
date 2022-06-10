@@ -12,6 +12,7 @@ export function Header() {
       as='header'
       w='100%'
       py={['4', '6']}
+      px={['4', '6']}
       maxWidth={1160}
       mx='auto'
       align='center'

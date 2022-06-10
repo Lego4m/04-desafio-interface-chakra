@@ -14,7 +14,7 @@ export function CityCard({ city, country, bannerUrl, flagUrl }: CityCardProps) {
         src={bannerUrl}
         alt={city}
         w='100%'
-        h='170px'
+        h='173px'
         borderTopRadius='4'
       />
 

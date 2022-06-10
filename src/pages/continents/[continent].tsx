@@ -7,7 +7,7 @@ import { MostVisitedCities } from '../../components/MostVisitedCities';
 export default function Continent() {
   return (
     <Flex direction='column'
-      pb='9'
+      pb={['4', '9']}
     >
       <Header />
       <ContinentBanner />
