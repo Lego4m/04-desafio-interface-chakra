@@ -31,6 +31,7 @@ export function CityCard({ city, country, bannerUrl, flagUrl }: CityCardProps) {
         <Box>
           <Text
             fontSize='xl'
+            fontFamily='Barlow'
             lineHeight='6'
             fontWeight='semibold'
             color='gray.600'
@@ -40,6 +41,7 @@ export function CityCard({ city, country, bannerUrl, flagUrl }: CityCardProps) {
 
           <Text
             fontSize='md'
+            fontFamily='Barlow'
             lineHeight='tall'
             fontWeight='medium'
             color='gray.400'

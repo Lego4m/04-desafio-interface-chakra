@@ -1,4 +1,4 @@
-import { Flex, Heading, SimpleGrid } from '@chakra-ui/react';
+import { Flex, Grid, GridItem, Heading, SimpleGrid } from '@chakra-ui/react';
 import { CityCard } from './CityCard';
 
 export function MostVisitedCities() {
@@ -21,11 +21,11 @@ export function MostVisitedCities() {
         Cidades +100
       </Heading>
 
-      <SimpleGrid
+      <Flex
         mt={['5', '10']}
-        minChildWidth='279px'
-        spacing={['4', '12']}
-        justifyItems='center'
+        gap={['4', '12']}
+        justify={['center', 'flex-start']}
+        flexWrap='wrap'
       >
         <CityCard 
           city='Londres'
@@ -33,7 +33,7 @@ export function MostVisitedCities() {
           bannerUrl='/ContinentsImgs/europe/londres.png'
           flagUrl='/ContinentsImgs/flags/UnitedKingdom.png'
         />
-      </SimpleGrid>
+      </Flex>
     </Flex>
   )
 }
