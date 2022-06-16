@@ -1,4 +1,13 @@
-import { Text, Tooltip, Image, Box, Flex } from '@chakra-ui/react';
+import { Text, 
+  Image, 
+  Box, 
+  Flex, 
+  Popover, 
+  PopoverTrigger, 
+  PopoverArrow, 
+  PopoverContent, 
+  PopoverBody 
+} from '@chakra-ui/react';
 
 interface InfoItemProps {
   quantity: number;
@@ -29,12 +38,17 @@ export function InfoItem({ quantity, item, label = null }: InfoItemProps) {
         </Text>
 
         { !!label && (
-          <Tooltip 
-            label={label}
-            borderRadius='xl'
-          >
-            <Image ml='1' src='/info.svg' alt='info tip' />
-          </Tooltip>
+          <Popover>
+            <PopoverTrigger>
+              <Image ml='1' src='/info.svg' alt='info tip' />
+            </PopoverTrigger>
+            <PopoverContent _focus={{ outline: 0 }}>
+              <PopoverArrow />
+              <PopoverBody>
+                {label}
+              </PopoverBody>
+            </PopoverContent>
+          </Popover>
         ) }
       </Flex>
     </Box>

@@ -15,7 +15,7 @@ interface ContinentInfosProps {
 export function ContinentInfos({ continent }: ContinentInfosProps) {
   return (
     <Stack 
-      direction={['column', 'row']} 
+      direction={['column', 'column', 'column', 'row']} 
       maxWidth={1160} 
       width='100%'
       mx='auto' 
