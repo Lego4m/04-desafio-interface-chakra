@@ -2,30 +2,74 @@
   "continents": [
     {
       "id": "northamerica",
-      "name": "América do Norte"
+      "name": "América do Norte",
+      "description": "O berço da tecnologia.",
+      "brief": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica)",
+      "carrouselBackgroundImage": "https://images.unsplash.com/photo-1546083381-2bed38b42cac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1570396649700-47987ec1ef72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=976&q=80",
+      "details": {
+        "countries": 3,
+        "languages": 3,
+        "citiesMoreThan100": [
+          "lasvegas", "novayork"
+        ]
+      }
     },
     {
       "id": "southamerica",
-      "name": "América do Sul"
+      "name": "América do Sul",
+      "description": "O continente tropical.",
+      "brief": "A América do Sul é um subcontinente pertencente à América. A maior parte do seu território se encontra no hemisfério sul, além de estar na porção oeste do planeta. É banhada pelos oceanos Pacífico, a oeste, e Atlântico, a leste. Possui 12 países e um território ultramarino, a Guiana Francesa",
+      "carrouselBackgroundImage": "https://images.unsplash.com/photo-1545832063-74f2d924b61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1552752646-6606743d357a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "details": {
+        "countries": 12,
+        "languages": 10,
+        "citiesMoreThan100": [
+          "riodejaneiro", "santiago"
+        ]
+      }
     },
     {
       "id": "asia",
-      "name": "Ásia"
+      "name": "Ásia",
+      "description": "O maior e mais populoso continente.",
+      "brief": "A Ásia é o maior continente em área terrestre do mundo, estando boa parte do continente localizado no Hemisfério Norte. Além de ser o mais extenso, é também o mais populoso, habitando nele cerca de três quintos da população mundial. A Ásia é multicultural, abrigando diversas culturas, etnias, religiões e tradições",
+      "carrouselBackgroundImage": "https://images.unsplash.com/photo-1535139262971-c51845709a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "details": {
+        "countries": 50,
+        "languages": 8,
+        "citiesMoreThan100": [
+          "tokyo", "hongkong"
+        ]
+      }
     },
     {
       "id": "africa",
-      "name": "África"
+      "name": "África",
+      "description": "O continente multicultural.",
+      "brief": "O continente africano é o terceiro maior do mundo. É banhado a leste pelo Oceano Atlântico e a Oeste pelo Oceano Índico. Ao norte, é separado do continente europeu pelo Mar Mediterrâneo; e a nordeste, é separado da Ásia pelo Mar Vermelho e pelo Canal do Suez, localizado no Egito.",
+      "carrouselBackgroundImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1532574754390-44dc5c6780bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "details": {
+        "countries": 54,
+        "languages": 11,
+        "citiesMoreThan100": [
+          "cairo", "marrakesh"
+        ]
+      }
     },
     {
       "id": "europe",
       "name": "Europa",
-      "description": "O continente mais antigo",
-      "carrouselBackgroundImage": "https://images.unsplash.com/photo-1515784638688-3f7e90ebb446?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
-      "bannerImage": "https://images.unsplash.com/photo-1491557345352-5929e343eb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "description": "Berço da civilização ocidental.",
       "brief": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "carrouselBackgroundImage": "https://images.unsplash.com/photo-1624972137336-298c80d19064?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1240&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1491557345352-5929e343eb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "details": {
         "countries": 50,
-        "languages": 60,
+        "languages": 24,
         "citiesMoreThan100": [
           "londres", "paris", "rome", "prague", "amsterdam"
         ]
@@ -33,7 +77,18 @@
     },
     {
       "id": "oceania",
-      "name": "Oceania"
+      "name": "Oceania",
+      "description": "O menor continente.",
+      "brief": "A Oceania é o menor continente da Terra, sendo em maior parte composta pela Austrália, principal e mais desenvolvido país da região. A Oceania é um continente localizado a sudeste da Ásia, compreendendo um conjunto de ilhas somado à Austrália, essa última considerada como uma massa continental chamada de “Australásia”",
+      "carrouselBackgroundImage": "https://images.unsplash.com/photo-1622732794483-fc1de4dcb3b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1622732692901-0a53ca7a2e61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=915&q=80",
+      "details": {
+        "countries": 14,
+        "languages": 3,
+        "citiesMoreThan100": [
+          "sydney", "auckland"
+        ]
+      }
     }
   ],
 
@@ -41,6 +96,7 @@
     {
       "id": "londres",
       "name": "Londres",
+      "image": "https://images.unsplash.com/photo-1581430872221-d1cfed785922?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "country": {
         "name": "Reino Unido",
         "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg"
@@ -49,6 +105,7 @@
     {
       "id": "paris",
       "name": "Paris",
+      "image": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "country": {
         "name": "França",
         "flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg"
@@ -57,6 +114,7 @@
     {
       "id": "rome",
       "name": "Roma",
+      "image": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
       "country": {
         "name": "Itália",
         "flag": "https://flagicons.lipis.dev/flags/4x3/it.svg"
@@ -65,6 +123,7 @@
     {
       "id": "prague",
       "name": "Praga",
+      "image": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "country": {
         "name": "República Tcheca",
         "flag": "https://flagicons.lipis.dev/flags/4x3/cz.svg"
@@ -73,9 +132,100 @@
     {
       "id": "amsterdam",
       "name": "Amsterdã",
+      "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "country": {
         "name": "Holanda",
         "flag": "https://flagicons.lipis.dev/flags/4x3/nl.svg"
+      }
+    },
+    {
+      "id": "lasvegas",
+      "name": "Las Vegas",
+      "image": "https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Estados Unidos",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/us.svg"
+      }
+    },
+    {
+      "id": "novayork",
+      "name": "Nova Iorque",
+      "image": "https://images.unsplash.com/photo-1542396817-804fa5be8ecf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Estados Unidos",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/us.svg"
+      }
+    },
+    {
+      "id": "riodejaneiro",
+      "name": "Rio de Janeiro",
+      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Brasil",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/br.svg"
+      }
+    },
+    {
+      "id": "santiago",
+      "name": "Santiago",
+      "image": "https://images.unsplash.com/photo-1593985437133-03d5e1435c03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80",
+      "country": {
+        "name": "Chile",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/cl.svg"
+      }
+    },
+    {
+      "id": "tokyo",
+      "name": "Tóquio",
+      "image": "https://images.unsplash.com/photo-1531219435494-8e90d22adc1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Japão",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/jp.svg"
+      }
+    },
+    {
+      "id": "hongkong",
+      "name": "Hong Kong",
+      "image": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+      "country": {
+        "name": "China",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/cn.svg"
+      }
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Egito",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/eg.svg"
+      }
+    },
+    {
+      "id": "marrakesh",
+      "name": "Marraquexe",
+      "image": "https://images.unsplash.com/photo-1585004607620-fb4c44331e73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Marrocos",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/ma.svg"
+      }
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "image": "https://images.unsplash.com/photo-1546268060-2592ff93ee24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Austrália",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/au.svg"
+      }
+    },
+    {
+      "id": "auckland",
+      "name": "Auckland",
+      "image": "https://images.unsplash.com/photo-1595125990323-885cec5217ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "country": {
+        "name": "Nova Zelândia",
+        "flag": "https://flagicons.lipis.dev/flags/4x3/nz.svg"
       }
     }
   ]
