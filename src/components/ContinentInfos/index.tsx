@@ -1,7 +1,18 @@
 import { Stack, Flex, Text } from '@chakra-ui/react';
 import { InfoItem } from './InfoItem';
 
-export function ContinentInfos() {
+interface ContinentInfosProps {
+  continent: {
+    brief: string;
+    details: {
+      countries: number;
+      languages: number;
+      citiesMoreThan100: unknown[];
+    }
+  }
+}
+
+export function ContinentInfos({ continent }: ContinentInfosProps) {
   return (
     <Stack 
       direction={['column', 'row']} 
@@ -20,7 +31,7 @@ export function ContinentInfos() {
           lineHeight={['5', '9']}
           color='gray.600'
         >
-          A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+          {continent.brief}
         </Text>
       </Flex>
       
@@ -29,9 +40,13 @@ export function ContinentInfos() {
         justify='space-evenly'
         align='center'
       >
-        <InfoItem title='50' text='países' />
-        <InfoItem title='60' text='línguas' />
-        <InfoItem title='27' text='cidades +100' label='Cidades que estão entre as 100 mais visitadas do mundo.' />
+        <InfoItem quantity={continent.details.countries} item='países' />
+        <InfoItem quantity={continent.details.languages} item='línguas' />
+        <InfoItem 
+          quantity={continent.details.citiesMoreThan100.length} 
+          item='cidades +100' 
+          label='Cidades que estão entre as 100 mais visitadas do mundo.' 
+        />
       </Flex>
     </Stack>
   )

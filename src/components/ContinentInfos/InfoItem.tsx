@@ -1,12 +1,12 @@
 import { Text, Tooltip, Image, Box, Flex } from '@chakra-ui/react';
 
 interface InfoItemProps {
-  title: string;
-  text: string;
+  quantity: number;
+  item: string;
   label?: string;
 }
 
-export function InfoItem({ title, text, label = null }: InfoItemProps) {
+export function InfoItem({ quantity, item, label = null }: InfoItemProps) {
   return (
     <Box textAlign='center'>
       <Text 
@@ -15,7 +15,7 @@ export function InfoItem({ title, text, label = null }: InfoItemProps) {
         fontSize={['2xl', '5xl']}
         lineHeight={['9', '4.5rem']}
       >
-        {title}
+        {quantity}
       </Text>
 
       <Flex>
@@ -25,7 +25,7 @@ export function InfoItem({ title, text, label = null }: InfoItemProps) {
           lineHeight={['7', '9']}
           color='gray.600'
         >
-          {text}
+          {item}
         </Text>
 
         { !!label && (

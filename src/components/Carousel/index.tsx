@@ -9,7 +9,18 @@ import 'swiper/css/pagination';
 
 import { CarouselItem } from './CarouselItem';
 
-export function Carousel() {
+type Continent = {
+  id: string;
+  name: string;
+  description: string;
+  carrouselBackgroundImage: string;
+}
+
+interface CarouselProps {
+  continents: Continent[];
+}
+
+export function Carousel({ continents }: CarouselProps) {
   return (
     <Box
       maxWidth={1240}
@@ -24,9 +35,16 @@ export function Carousel() {
         pagination={{ clickable: true }}
         scrollbar={false}
       >
-        <SwiperSlide>
-          <CarouselItem />
-        </SwiperSlide>
+        {continents.map((continent) => (
+          <SwiperSlide key={continent.id}>
+              <CarouselItem 
+                continentId={continent.id}
+                continent={continent.name}
+                backgroundImage={continent.carrouselBackgroundImage}
+                description={continent.description}
+              />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </Box>
   );

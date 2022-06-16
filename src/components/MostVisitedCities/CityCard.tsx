@@ -3,15 +3,15 @@ import { Box, Flex, Text, Image } from '@chakra-ui/react';
 interface CityCardProps {
   city: string;
   country: string;
-  bannerUrl: string;
-  flagUrl: string;
+  image: string;
+  flag: string;
 }
 
-export function CityCard({ city, country, bannerUrl, flagUrl }: CityCardProps) {
+export function CityCard({ city, country, image, flag }: CityCardProps) {
   return (
     <Flex direction='column' width={279}>
       <Image 
-        src={bannerUrl}
+        src={image}
         alt={city}
         w='100%'
         h='173px'
@@ -52,11 +52,12 @@ export function CityCard({ city, country, bannerUrl, flagUrl }: CityCardProps) {
         </Box>
 
         <Image 
-          src={flagUrl}
+          src={flag}
           alt={country}
           height='8'
           width='8'
           borderRadius='50%'
+          fit='cover'
         />
       </Flex>
     </Flex>

@@ -1,10 +1,25 @@
 import { Flex, Divider, Heading } from '@chakra-ui/react';
+import { GetStaticProps } from 'next';
+
 import { Banner } from '../components/Banner';
 import { Carousel } from '../components/Carousel';
 import { Header } from '../components/Header';
 import { TravelTypes } from '../components/TravelTypes';
 
-export default function Home() {
+import { api } from '../services/api';
+
+type Continent = {
+  id: string;
+  name: string;
+  description: string;
+  carrouselBackgroundImage: string;
+}
+
+interface HomeProps {
+  continents: Continent[];
+}
+
+export default function Home({ continents }: HomeProps) {
   return (
     <Flex direction='column'>
       <Header />
@@ -32,7 +47,17 @@ export default function Home() {
         Vamos nessa? <br/> Então escolha seu continente
       </Heading>
 
-      <Carousel />
+      <Carousel continents={continents} />
     </Flex>
   )
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  const { data } = await api.get<Continent[]>('/continents');
+
+  return {
+    props: {
+      continents: data,
+    }
+  }
 }

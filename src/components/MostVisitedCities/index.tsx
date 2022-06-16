@@ -1,8 +1,21 @@
-import { Flex, Grid, GridItem, Heading, SimpleGrid } from '@chakra-ui/react';
+import { Flex, Heading } from '@chakra-ui/react';
 import { CityCard } from './CityCard';
 
-export function MostVisitedCities() {
+type City = {
+  id: string;
+  name: string;
+  image: string;
+  country: {
+    name: string;
+    flag: string;
+  }
+}
 
+interface MostVisitedCitiesProps {
+  cities: City[];
+}
+
+export function MostVisitedCities({ cities }: MostVisitedCitiesProps) {
   return (
     <Flex
       direction='column'
@@ -27,12 +40,15 @@ export function MostVisitedCities() {
         justify={['center', 'flex-start']}
         flexWrap='wrap'
       >
-        <CityCard 
-          city='Londres'
-          country='Reino Unido'
-          bannerUrl='/ContinentsImgs/europe/londres.png'
-          flagUrl='/ContinentsImgs/flags/UnitedKingdom.png'
-        />
+        { cities.map((city) => (
+          <CityCard 
+            key={city.id}
+            city={city.name}
+            image={city.image}
+            country={city.country.name}
+            flag={city.country.flag}
+          />
+        )) }
       </Flex>
     </Flex>
   )
