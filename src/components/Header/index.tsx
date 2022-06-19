@@ -27,7 +27,7 @@ export function Header() {
             justify='center'
             align='center'
           >
-            <Image src='/back.svg' alt='back button' />
+            <Image src='/icons/back.svg' alt='back button' />
           </Flex>
         </Link>
       ) : (

@@ -16,7 +16,7 @@ export function TravelItem({ children, icon }: TravelItemProps) {
       { canContainIcons ? (
         <Image src={`/icons/${icon}`} alt={icon} mb='6' />
       ) : (
-        <Image src={'/dot.svg'} alt='dot' mr='2' />
+        <Image src={'/icons/dot.svg'} alt='dot' mr='2' />
       ) }
       
 

@@ -40,7 +40,7 @@ export function InfoItem({ quantity, item, label = null }: InfoItemProps) {
         { !!label && (
           <Popover>
             <PopoverTrigger>
-              <Image ml='1' src='/info.svg' alt='info tip' />
+              <Image ml='1' src='/icons/info.svg' alt='info tip' />
             </PopoverTrigger>
             <PopoverContent _focus={{ outline: 0 }}>
               <PopoverArrow />
